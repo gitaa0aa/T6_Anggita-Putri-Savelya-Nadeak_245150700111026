@@ -18,8 +18,8 @@ Program ini adalah simulasi **Marketplace Sederhana** berbasis Java yang memanfa
 - Menampilkan antrian produk yang telah diproses. 
 
 ### Struktur Kelas
-1. 'Product':
-   - Class generic untuk menyimpan informasi produk.
+1. `Product<T>`:  
+   - Class generik untuk menyimpan informasi produk.
    - Mendukung perbandingan antar produk berdasarkan kategori (`T extends Comparable<T>`).
 2. `ProductManager`:  
    - Mengelola seluruh produk, kategori, dan antrian proses menggunakan:
